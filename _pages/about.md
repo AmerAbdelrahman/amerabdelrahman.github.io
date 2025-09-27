@@ -26,7 +26,7 @@ latest_posts:
 My research interests lie at the intersection of Labor, Applied Micro, and Spatial Economics. 
 <br>
 <br>
-I will be on the 2025-2026 academic job market. </p>
+I am on the 2025-2026 academic job market. </p>
 <br>
 e-mail:[ abdelrahman.amer@mail.utoronto.ca](mailto:abdelrahman.amer@mail.utoronto.ca)
 <br>
