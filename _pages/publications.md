@@ -1,11 +1,10 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /research/
 title: Research
 nav: true
 nav_order: 2
 ---
-
 <h2 class="research-subtitle">Working Papers</h2>
 {% include working-papers-list.liquid %}
 

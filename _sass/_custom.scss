@@ -8,7 +8,10 @@
 
 .research-subtitle {
   text-align: left;
-  margin-left: -400px; /* Optional: adds a little space from the edge */
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* centers subtitle horizontally */
+  text-align: left;
   color: #6a00ff; 
   font-weight: 600;
   font-family: "Inter", sans-serif; /* Adds the Inter font */
@@ -27,3 +30,9 @@
 .my-name {
   font-family: "Inter",  sans-serif  !important;
 }
+
+/* Paper title */
+.card-title {
+  font-family: "Inter",  serif  !important;
+}
+
