@@ -9,7 +9,7 @@ authors:
 <details>
   <summary>Abstract</summary>
   <p>This paper investigates how firms allocate employees with different skills in its hierarchy, and the consequences
-on within firm innequality. Since Ricardo, economists have recognized the gains from specialization
+on within firm inequality. Since Ricardo, economists have recognized the gains from specialization
 and the division of labor. In order to take advantage of such specialization, the firm has
 to produce many task outputs and aggregate them into different final products. Each firm has to decide
 which tasks to do, who to hire to do them and to coordinate the production and aggregation of
