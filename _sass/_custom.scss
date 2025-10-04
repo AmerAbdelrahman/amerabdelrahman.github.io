@@ -3,7 +3,8 @@
 }
 
 .custom-subtitle h2 {
-  color: #007bff; /* Example: changes the color to blue */
+  //color: #007bff; /* Example: changes the color to blue */
+  color: #040273;
 }
 
 .research-subtitle {
@@ -12,13 +13,13 @@
   flex-direction: column;
   align-items: left; /* centers subtitle horizontally */
   text-align: left;
-  color: #6a00ff; 
+  color: #040273;
   font-weight: 600;
   font-family: "Inter", sans-serif; /* Adds the Inter font */
 }
 
 .research-subtitle-about {
-  color: #6a00ff; 
+  color: #040273; 
   font-weight: 600;
   font-family: "Inter", sans-serif; /* Adds the Inter font */
 }
