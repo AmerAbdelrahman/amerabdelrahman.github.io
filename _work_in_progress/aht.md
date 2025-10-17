@@ -4,6 +4,10 @@ paper_order: 2
 authors:
   - name: Mahmood Haddara
   - name: Daniel Trefler
+links:
+  - name: Slides
+    url: "/assets/pdf/AHT_slides.pdf"
+    icon: fas fa-download
 ---
 
 <details>
