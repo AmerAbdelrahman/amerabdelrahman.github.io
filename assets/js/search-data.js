@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -450,13 +457,13 @@ ninja.data = [{
           description: "",
           section: "Work_in_progress",handler: () => {
               window.location.href = "/work_in_progress/production-hierarchies/";
-            },},{id: "working_papers-decoding-gender-bias-in-interviews",
-          title: 'Decoding Gender Bias in Interviews',
+            },},{id: "working_papers-decoding-gender-bias-in-interviews-under-review",
+          title: 'Decoding Gender Bias in Interviews  (Under Review)',
           description: "",
           section: "Working_papers",handler: () => {
               window.location.href = "/working_papers/decoding-gender-bias/";
-            },},{id: "working_papers-monopsony-in-space-commuting-amp-labor-market-power-jmp",
-          title: 'Monopsony in Space: Commuting &amp;amp; Labor Market Power (JMP)',
+            },},{id: "working_papers-monopsony-in-space-commuting-amp-labor-market-power-job-market-paper",
+          title: 'Monopsony in Space: Commuting &amp;amp; Labor Market Power  (Job Market Paper)',
           description: "",
           section: "Working_papers",handler: () => {
               window.location.href = "/working_papers/monopsony-in-space/";
