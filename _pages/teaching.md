@@ -29,7 +29,7 @@ nav_order: 3
     <p></p>
 
 * **ECO 2201 - Core Microeconomics (PhD)** 
-  * Instructor: Gabrile Carol & Anne-katrin Roesler
+  * Instructor: Gabriel Carroll & Anne-katrin Roesler
 
     <p></p>
 
