@@ -1,5 +1,5 @@
 ---
-title: Decoding Gender Bias in Interviews
+title: "Decoding Gender Bias in Interviews <span style='font-style:italic;font-size:0.7em'> (Under Review) </span>"
 paper_order: 2
 authors:
   - name: Ashley Craig
@@ -18,6 +18,7 @@ links:
     url: "https://www.iza.org/publications/dp/17077/decoding-gender-bias-the-role-of-personal-interaction"
     icon: fas fa-external-link-alt
 ---
+
 
 <details>
   <summary>Abstract</summary>
