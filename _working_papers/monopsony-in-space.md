@@ -1,14 +1,14 @@
 ---
 title: "Monopsony in Space: Commuting & Labor Market Power <span style='font-style:italic;font-size:0.7em'> (Job Market Paper) </span>"
 paper_order: 1
-# links:
-#   - name: Latest Version
-#     url: "/assets/pdf/jmp.pdf"
-#     icon: fas fa-download
+links:
+  - name: Download Paper
+    url: "/assets/pdf/JMP.pdf"
+    icon: fas fa-download
 ---
 
 <details>
   <summary>Abstract</summary>
-  <p>Around 40% of employees in Canada work within 5 km of their place of residence, highlighting workers' preference for proximity to workplace. In this paper, I examine the role of commuting costs in shaping labor market power. I leverage a subway expansion in Vancouver during the 2010 Winter Olympics and show that workers who gained improved access to the subway network experienced an increase in earnings by 1.5-2%. I provide suggestive evidence the effect is driven by job switchers who travel farther to new employers. To interpret these findings, I build, identify, and estimate a two-sided labor market matching model featuring wage-posting, commuting costs, and residential choice. Using the estimated model, I replicate the reduced form effects and show that the expansion reallocated workers to more productive firms. I also show that labor market concentration dropped by 8% in treated areas due to the expansion. The reallocation came at the cost of workers in other neighborhoods, highlighting the distributional consequences from the increased competition for high paying jobs due to asymmetric commuting shocks. Separately, I use the model to shed light on the role of geographic distribution of firms in shaping the spatial distribution of wage markdowns.
+  <p>   This paper studies the role of commuting costs in shaping labor market power, and the allocation of workers to firms. I build, identify, and estimate a two-sided labor market matching model featuring strategic interactions in wage-setting, commuting costs, and residential choice. Changes to workers' commuting costs affects their allocation to firms, and due to strategic interactions, labor supply elasticity. I study the direct and distributional consequences of a commuting shock through the lens of a subway expansion in Vancouver during the 2010 Winter Olympics. Empirically, workers who gained improved access to the subway network experienced an increase in earnings by 1.5-2% relative to workers with no change in access. I provide suggestive evidence the effect is driven by job switchers who travel farther to new employers. Using the estimated model, I show that the expansion reallocated workers in affected areas to more productive firms. In equilibrium, neighborhoods with improved access experienced an 8% drop in labor market concentration. Simultaneously, workers in other neighborhoods were crowded out from high productivity jobs, and faced worse labor market outcomes. This showcases how improved commuting costs for some neighborhoods has adverse spillover effects on other areas through increased competition amongst workers for high-paying jobs. I further show that 10-15% of the spatial variation in wage markdowns, can be explained by the non-uniform access to firms within a Commuting Zone. This operates through changes in worker to firm sorting, underscoring the role of differential job access in shaping labor market power across space.
 </p>
 </details>
