@@ -1,6 +1,6 @@
 ---
 title: Protectionist Tariffs with Third Country Effects
-paper_order: 2
+paper_order: 1
 authors:
   - name: Mahmood Haddara
   - name: Daniel Trefler

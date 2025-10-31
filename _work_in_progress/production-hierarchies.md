@@ -1,6 +1,6 @@
 ---
 title: The Role of Production Hierarchies in Coordinating Specialization
-paper_order: 1
+paper_order: 2
 authors:
   - name: Kevin Lim
   - name: Aloysius Siow
