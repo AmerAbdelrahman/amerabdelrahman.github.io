@@ -23,7 +23,7 @@ latest_posts:
 
 <p class="about-text">I am a PhD candidate in Economics at the University of Toronto. 
 <br>
-My research interests lie at the intersection of Labor, Applied Micro, and Spatial Economics. 
+My research interests lie at the intersection of Labor, Applied Microeconomics, and Spatial Economics. 
 <br>
 <br>
 I am on the 2025-2026 academic job market. </p>
