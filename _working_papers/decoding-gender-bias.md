@@ -14,8 +14,8 @@ links:
   - name: IZA
     url: "https://www.iza.org/publications/dp/17077/decoding-gender-bias-the-role-of-personal-interaction"
     icon: fas fa-external-link-alt
-  - name: "Press:IZA"
-    url: "https://www.iza.org/publications/dp/17077/decoding-gender-bias-the-role-of-personal-interaction"
+  - name: "Press: IZA"
+    url: "https://wol.iza.org/opinions/decoding-gender-bias-the-role-of-personal-interaction"
     icon: fas fa-external-link-alt
 ---
 

@@ -14,8 +14,9 @@ nav_order: 3
   
     <p></p>
 
-* **ECO 338 - Labor Economics (Undergraduate)** 
+* **ECO 338 - Economics of Careers (Undergraduate)** 
   * Instructor: Aloysius Siow
+  * [Slides](https://drive.google.com/drive/folders/1GwYBwQMRipUfJU3VENN0jMWO0hq-P0WF?usp=sharing)
 
     <p></p>
 
