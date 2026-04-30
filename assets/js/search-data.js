@@ -435,8 +435,8 @@ ninja.data = [{
           description: "",
           section: "Work_in_progress",handler: () => {
               window.location.href = "/work_in_progress/production-hierarchies/";
-            },},{id: "working_papers-decoding-gender-bias-in-interviews-under-review",
-          title: 'Decoding Gender Bias in Interviews  (Under Review)',
+            },},{id: "working_papers-decoding-gender-bias-in-interviews-submitted",
+          title: 'Decoding Gender Bias in Interviews  (Submitted)',
           description: "",
           section: "Working_papers",handler: () => {
               window.location.href = "/working_papers/decoding-gender-bias/";
@@ -445,25 +445,4 @@ ninja.data = [{
           description: "",
           section: "Working_papers",handler: () => {
               window.location.href = "/working_papers/monopsony-in-space/";
-            },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%61%62%64%65%6C%72%61%68%6D%61%6E.%61%6D%65%72@%6D%61%69%6C.%75%74%6F%72%6F%6E%74%6F.%63%61", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/AmerAbdelrahman", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/abdelrahman-amer-943780163", "_blank");
-        },
-      },];
+            },},];
