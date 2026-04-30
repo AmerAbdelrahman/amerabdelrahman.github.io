@@ -2,11 +2,11 @@
 title: "Monopsony in Space: Commuting & Labor Market Power <span style='font-style:italic;font-size:0.7em'> (Job Market Paper) </span>"
 paper_order: 1
 links:
-  - name: Download Paper
+  - name: Latest Version
     url: "/assets/pdf/JMP.pdf"
     icon: fas fa-download
+awards: "Awarded Canadian Labour Economics Forum Best Paper Prize (2026)"
 ---
-
 <details>
   <summary>Abstract</summary>
   <p> 

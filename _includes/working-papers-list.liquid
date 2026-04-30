@@ -2,21 +2,26 @@
 {% for paper in sorted_papers %} 
   <div class="card my-3 p-3">
     <div class="card-body">
-      <h3 class="card-title">{{ paper.title }}</h3>
+      <h3 class="card-title" style="margin-bottom: 2px; width: fit-content;">{{ paper.title }}</h3>
       <p class="card-text text-muted">
         {% if paper.authors.size > 1 %}
           with 
         {% endif %}
         {% for author in paper.authors %}{{ author.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
       </p>
-      
-      <div class="abstract-content">{{ paper.content }}</div>
+
+      {% if paper.awards %}
+        <p class="card-text" style="margin-top: 1px;"><em>{{ paper.awards }}</em></p>
+      {% endif %}
 
       <div>
         {% for link in paper.links %}
           <a href="{{ link.url }}" class="paper-link"><i class="{{ link.icon }}"></i> {{ link.name }}</a>
         {% endfor %}
       </div>
+      
+      <div class="abstract-content" style="margin-top: 12px;">{{ paper.content }}</div>
+
     </div>
   </div>
 {% endfor %}

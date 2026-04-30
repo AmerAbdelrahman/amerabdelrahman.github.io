@@ -10,6 +10,6 @@ nav_order: 2
 {% include working-papers-list.liquid %}
 
 
-<h2 class="research-subtitle">Work in Progress</h2>
+<h2 class="research-subtitle" style="margin-top: 50px;">Work in Progress</h2>
 ---
 {% include work-in-progress-list.liquid %}
