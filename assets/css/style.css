@@ -1,26 +1,25 @@
 /* ==========================================================================
    Abdelrahman Amer — personal site
-   Palette & type inspired by Anthropic's warm, editorial house style.
+   Oxford Navy palette: white ground, navy ink, blue for anything clickable.
    ========================================================================== */
 
 :root {
-  --bg:            #faf9f5;
-  --bg-tint:       #f3f1e9;
+  --bg:            #ffffff;
+  --bg-tint:       #f4f7fb;
   --surface:       #ffffff;
-  --border:        #e5e2d6;
-  --border-strong: #d6d2c2;
-  --text:          #141413;
-  --text-muted:    #6c6a60;
-  --text-faint:    #8f8d82;
-  --accent:        #c05f3c;
-  --accent-soft:   #d97757;
-  --accent-wash:   #f7ece6;
-  --blue:          #4a7ba8;
-  --green:         #64754b;
+  --border:        #e1e7f0;
+  --border-strong: #c9d3e2;
+  --text:          #0b2545;
+  --text-muted:    #4a5a75;
+  --text-faint:    #637290;
+  --accent:        #1d4ed8;
+  --accent-soft:   #3b6fe0;
+  --accent-wash:   #eaf0fd;
+  --award:         #0f766e;
 
-  --font-display: "Lora", Georgia, "Times New Roman", serif;
-  --font-ui:      "Poppins", "Helvetica Neue", Arial, sans-serif;
-  --font-body:    "Lora", Georgia, serif;
+  --font-display: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --font-ui:      "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-body:    "IBM Plex Serif", Georgia, serif;
 
   --maxw: 1080px;
   --radius: 10px;
@@ -31,19 +30,18 @@
 }
 
 :root[data-theme="dark"] {
-  --bg:            #131312;
-  --bg-tint:       #1a1a18;
-  --surface:       #1c1c1a;
-  --border:        #2e2e2a;
-  --border-strong: #3d3d37;
-  --text:          #faf9f5;
-  --text-muted:    #b0aea5;
-  --text-faint:    #8b8981;
-  --accent:        #e08a68;
-  --accent-soft:   #d97757;
-  --accent-wash:   #2a1f1a;
-  --blue:          #7fa8d0;
-  --green:         #92a375;
+  --bg:            #0b1424;
+  --bg-tint:       #0f1a2e;
+  --surface:       #111d33;
+  --border:        #1f2c45;
+  --border-strong: #2c3b58;
+  --text:          #e8eef8;
+  --text-muted:    #a7b4cb;
+  --text-faint:    #7d8aa3;
+  --accent:        #7ea6ff;
+  --accent-soft:   #5b8cf5;
+  --accent-wash:   #16264a;
+  --award:         #5fd3c4;
   --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px -12px rgba(0, 0, 0, .6);
 }
 
@@ -67,7 +65,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font-body);
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -196,16 +194,6 @@ h1, h2, h3, h4 {
 }
 .nav-brand:hover { color: var(--text); }
 
-.nav-mark {
-  width: 11px;
-  height: 11px;
-  border-radius: 2px;
-  background: var(--accent-soft);
-  flex: none;
-  transition: transform .35s var(--ease);
-}
-.nav-brand:hover .nav-mark { transform: rotate(45deg); }
-
 .nav-links {
   display: flex;
   align-items: center;
@@ -226,7 +214,6 @@ h1, h2, h3, h4 {
   transition: background-color .18s var(--ease), color .18s var(--ease);
 }
 .nav-links a:hover { color: var(--text); background: var(--bg-tint); }
-:root[data-theme="dark"] .nav-links a:hover { background: #262624; }
 .nav-links a.is-active { color: var(--text); font-weight: 550; }
 
 .theme-toggle {
@@ -263,16 +250,6 @@ h1, h2, h3, h4 {
   align-items: start;
 }
 
-.hero-eyebrow {
-  font-family: var(--font-ui);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--text-faint);
-  margin: 0 0 18px;
-}
-
 .hero h1 {
   font-size: clamp(2.5rem, 6vw, 3.9rem);
   letter-spacing: -.03em;
@@ -297,9 +274,7 @@ h1, h2, h3, h4 {
 }
 
 .hero-portrait {
-  /* sit centred against the name-to-contact block rather than the eyebrow */
   align-self: center;
-  margin-top: 38px;
   position: relative;
   border-radius: var(--radius);
   overflow: hidden;
@@ -393,12 +368,15 @@ h1, h2, h3, h4 {
 .paper {
   background: var(--surface);
   border: 1px solid var(--border);
+  /* quiet blue edge that lights up on hover */
+  border-left: 3px solid color-mix(in srgb, var(--accent) 22%, var(--border));
   border-radius: var(--radius);
   padding: 20px 22px;
   transition: border-color .22s var(--ease), box-shadow .22s var(--ease), transform .22s var(--ease);
 }
 .paper:hover {
   border-color: var(--border-strong);
+  border-left-color: var(--accent);
   box-shadow: var(--shadow);
   transform: translateY(-2px);
 }
@@ -429,8 +407,8 @@ h1, h2, h3, h4 {
 
 .paper-authors {
   font-family: var(--font-ui);
-  font-size: 14px;
-  color: var(--text-muted);
+  font-size: 15px;
+  color: var(--text);
   margin: 0 0 10px;
 }
 
@@ -440,7 +418,7 @@ h1, h2, h3, h4 {
   gap: 8px;
   font-size: 14.5px;
   font-style: italic;
-  color: var(--green);
+  color: var(--award);
   margin: 0 0 14px;
 }
 
@@ -491,12 +469,15 @@ h1, h2, h3, h4 {
 }
 .chip:hover { color: var(--text); border-color: var(--border-strong); background: var(--bg-tint); }
 .chip svg { width: 13px; height: 13px; flex: none; }
+/* the main action on each card: solid blue, navy on hover */
 .chip--solid {
-  color: var(--bg);
-  background: var(--text);
-  border-color: var(--text);
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
 }
-.chip--solid:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip--solid:hover { background: var(--text); border-color: var(--text); color: var(--bg); }
+/* the dark theme's blue is light, so it needs dark text */
+:root[data-theme="dark"] .chip--solid { color: var(--bg); }
 
 /* ------------------------------------------------------------ abstract -- */
 
@@ -512,14 +493,14 @@ h1, h2, h3, h4 {
   font-family: var(--font-ui);
   font-size: 13px;
   font-weight: 500;
-  color: var(--text-muted);
+  color: var(--accent);
   cursor: pointer;
   list-style: none;
   width: fit-content;
   transition: color .18s var(--ease);
 }
 .abstract summary::-webkit-details-marker { display: none; }
-.abstract summary:hover { color: var(--accent); }
+.abstract summary:hover { color: var(--text); }
 .abstract summary::before {
   content: "";
   width: 6px;

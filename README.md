@@ -23,9 +23,10 @@ site served. Inside `research/` and `teaching/` every relative path is prefixed 
 
 ## Design
 
-Warm ivory ground (`#faf9f5`), near-black ink (`#141413`), clay accent (`#d97757`),
-Lora for text and Poppins for UI labels. Light and dark themes; the toggle sits in the
-nav and persists in `localStorage`.
+"Oxford Navy": white ground (`#ffffff`), navy ink (`#0b2545`), blue accent (`#1d4ed8`)
+reserved for links and buttons, teal (`#0f766e`) for the award line. IBM Plex Serif for
+text and headings, IBM Plex Sans for UI labels. Light and dark themes; the toggle sits in
+the nav and persists in `localStorage`.
 
 ## Viewing locally
 
